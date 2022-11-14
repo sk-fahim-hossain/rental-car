@@ -10,7 +10,6 @@ const Service = ({service}) => {
         naviagte(`/services/${id}`)
         console.log(id)
     }
-    console.log(service._id)
     return (
         <div id="services" className="col-sm-12 col-md-6 col-lg-4 g-2 mr-3">
            <div style={{overflow: 'hidden'}}>
